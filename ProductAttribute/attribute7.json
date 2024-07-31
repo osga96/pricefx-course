@@ -1,0 +1,11 @@
+{
+  "cssProperties" : "background-color:#7ed321;",
+  "fieldType" : 2,
+  "formatType" : "TEXT",
+  "label" : "Manufacturer",
+  "labelTranslations" : {
+    "" : "Manufacturer"
+  },
+  "readOnly" : false,
+  "requiredField" : false
+}

@@ -1,0 +1,22 @@
+{
+  "elements" : [ {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementLabel" : "Element One Label",
+    "elementName" : "ElementOne",
+    "elementTimeout" : 0,
+    "excludeFromExport" : false,
+    "formatType" : "TEXT",
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "overridden" : false,
+    "protectedExpression" : false,
+    "summarize" : false
+  } ],
+  "inputDescriptors" : [ ],
+  "status" : "ACTIVE",
+  "uniqueName" : "HelloWorld",
+  "validAfter" : "2020-01-01"
+}
