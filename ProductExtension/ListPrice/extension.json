@@ -1,0 +1,6 @@
+{
+  "allowSearch" : false,
+  "businessKey" : [ "sku", "attribute1" ],
+  "label" : "List Price",
+  "numberOfAttributes" : 3
+}

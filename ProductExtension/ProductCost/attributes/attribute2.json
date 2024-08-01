@@ -1,0 +1,10 @@
+{
+  "fieldType" : 1,
+  "formatType" : "MONEY_USD",
+  "label" : "AvgCostUSD",
+  "labelTranslations" : {
+    "" : "Average Cost USD"
+  },
+  "readOnly" : false,
+  "requiredField" : false
+}
