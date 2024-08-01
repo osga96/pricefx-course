@@ -14,4 +14,8 @@ def matrixValueFilters = [
         filterDate
 ]
 
-api.find("MLTV3", 0, api.getMaxFindResultsLimit(), null, fields, *matrixValueFilters)
+try {
+    api.find("MLTV3", 0, api.getMaxFindResultsLimit(), null, fields, *matrixValueFilters)
+} catch (e) {
+    api.criticalAlert(e.getMessage())
+}

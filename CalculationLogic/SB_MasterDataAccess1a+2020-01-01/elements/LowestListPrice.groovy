@@ -5,4 +5,8 @@ def fields = [
         "attribute2"
 ]
 
-def rows = api.find("PX", 0, 1, "attribute2", fields, *filters)[0].attribute2 as BigDecimal
+try {
+    api.find("PX", 0, 1, "attribute2", fields, *filters)[0].attribute2 as BigDecimal
+} catch (e) {
+    api.criticalAlert(e.getMessage())
+}
