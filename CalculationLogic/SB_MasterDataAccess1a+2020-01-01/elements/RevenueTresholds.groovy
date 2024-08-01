@@ -1,7 +1,7 @@
-def revenueThresholds = new ArrayList()
+def matrixValueFilters = [
+        Filter.equal("lookupTable.id", "59555")
+]
 
-api.findLookupTableValues("ApprovalLevelsRevenue", null).forEach {
-    def filter = Filter.equal("typedId", it.typedId)
-    revenueThresholds.add(api.find("MLTV", 0, api.getMaxFindResultsLimit(), null, filter).attribute1)
-}
-return revenueThresholds
+def fields = ["attribute1"]
+
+api.find("MLTV", 0, api.getMaxFindResultsLimit(), null, fields, *matrixValueFilters)

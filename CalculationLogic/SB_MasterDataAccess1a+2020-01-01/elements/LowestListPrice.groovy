@@ -5,8 +5,4 @@ def fields = [
         "attribute2"
 ]
 
-def rows = api.find("PX", 0, api.getMaxFindResultsLimit(), "attribute2", fields, *filters)[0]
-
-rows.each {
-    // TODO: add your code here
-}
+def rows = api.find("PX", 0, 1, "attribute2", fields, *filters)[0].attribute2 as BigDecimal

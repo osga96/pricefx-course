@@ -1,1 +1,1 @@
-api.findLookupTableValues("ApprovalLevelsRevenue", ["name"], null)
+api.findLookupTable("ApprovalLevelsRevenue").id

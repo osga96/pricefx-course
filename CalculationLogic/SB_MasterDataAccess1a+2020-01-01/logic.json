@@ -132,6 +132,32 @@
     "hideWarnings" : false,
     "protectedExpression" : false,
     "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementLabel" : "Max Average Cost",
+    "elementName" : "MaxAverageCost",
+    "elementTimeout" : 0,
+    "excludeFromExport" : false,
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "protectedExpression" : false,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementLabel" : "Tests",
+    "elementName" : "Tests",
+    "elementTimeout" : 0,
+    "excludeFromExport" : false,
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "protectedExpression" : false,
+    "summarize" : false
   } ],
   "inputDescriptors" : [ ],
   "status" : "ACTIVE",
