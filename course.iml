@@ -12,6 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/RegionalPricingQuoteHeader+2019-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/RegionalPricingQuoteLine+2010-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/SB_MasterDataAccess1a+2020-01-01/elements" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/SB_MasterDataAccess1b+2020-01-01/elements" isTestSource="false" />
     </content>
   </component>
 </module>
