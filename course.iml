@@ -14,8 +14,8 @@
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/SB_MasterDataAccess1a+2020-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/SB_MasterDataAccess1b+2020-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/Week2miniTest+2020-01-01/elements" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/Lab1_week3_PriceList+2020-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/SharedLib+2020-01-01/elements" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/Week3_Lab1_PriceList+2020-01-01/elements" isTestSource="false" />
     </content>
   </component>
 </module>
