@@ -1,0 +1,8 @@
+{
+  "fieldType" : 2,
+  "label" : "ApprovalLevel",
+  "labelTranslations" : {
+    "" : "Approval Level"
+  },
+  "requiredField" : false
+}

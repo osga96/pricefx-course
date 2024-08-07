@@ -1,0 +1,10 @@
+{
+  "fieldType" : 1,
+  "formatType" : "PERCENT",
+  "label" : "CriticalAlert",
+  "labelTranslations" : {
+    "" : "Critical Alert"
+  },
+  "readOnly" : false,
+  "requiredField" : false
+}

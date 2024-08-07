@@ -1,0 +1,9 @@
+{
+  "fieldType" : 2,
+  "label" : "ToCurrency",
+  "labelTranslations" : {
+    "" : "To Currency"
+  },
+  "readOnly" : false,
+  "requiredField" : false
+}

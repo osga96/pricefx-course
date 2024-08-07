@@ -1,0 +1,6 @@
+{
+  "fieldType" : 2,
+  "label" : "User Group",
+  "readOnly" : false,
+  "requiredField" : false
+}

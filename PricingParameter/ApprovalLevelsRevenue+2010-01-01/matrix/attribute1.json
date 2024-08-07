@@ -1,0 +1,7 @@
+{
+  "fieldType" : 1,
+  "formatType" : "MONEY_EUR",
+  "label" : "Revenue Treshold",
+  "readOnly" : false,
+  "requiredField" : false
+}

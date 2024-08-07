@@ -2,6 +2,19 @@
   "elements" : [ {
     "allowOverride" : false,
     "combinationType" : "FUNCTION",
+    "displayOptions" : 0,
+    "elementGroups" : [ ],
+    "elementLabel" : "Price List Library",
+    "elementName" : "PriceListLib",
+    "elementTimeout" : 0,
+    "excludeFromExport" : false,
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "protectedExpression" : false,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
     "displayOptions" : 1,
     "elementGroups" : [ ],
     "elementLabel" : "Base Price",

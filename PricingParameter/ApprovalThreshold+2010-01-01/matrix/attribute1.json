@@ -1,0 +1,8 @@
+{
+  "fieldType" : 2,
+  "label" : "UserGroup",
+  "labelTranslations" : {
+    "" : "User Group"
+  },
+  "requiredField" : false
+}

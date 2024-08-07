@@ -1,0 +1,9 @@
+{
+  "fieldType" : 1,
+  "label" : "ExchangeRate",
+  "labelTranslations" : {
+    "" : "Exchange Rate"
+  },
+  "readOnly" : false,
+  "requiredField" : true
+}

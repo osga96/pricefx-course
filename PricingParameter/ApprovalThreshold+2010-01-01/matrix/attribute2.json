@@ -1,0 +1,10 @@
+{
+  "fieldType" : 1,
+  "formatType" : "MONEY",
+  "label" : "RevenueThreshold",
+  "labelTranslations" : {
+    "" : "Revenue Threshold"
+  },
+  "readOnly" : false,
+  "requiredField" : false
+}

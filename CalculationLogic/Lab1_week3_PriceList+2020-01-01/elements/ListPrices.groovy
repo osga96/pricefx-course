@@ -3,4 +3,10 @@ if (null in [out.BasePrice, out.MarginAdjAbs, out.AttributeAdjAbs]) {
     return null
 }
 
-return out.BasePrice + out.MarginAdjAbs + out.AttributeAdjAbs
+def listPrice = out.BasePrice + out.MarginAdjAbs + out.AttributeAdjAbs as BigDecimal
+def roundedListPrice = libs.SharedLib.RoundingUtils.round(listPrice, 2)
+
+api.trace("List Price", listPrice)
+api.trace("Rounded List Price", roundedListPrice)
+
+return roundedListPrice

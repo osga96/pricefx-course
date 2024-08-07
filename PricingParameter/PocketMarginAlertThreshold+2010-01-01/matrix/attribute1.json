@@ -1,0 +1,10 @@
+{
+  "fieldType" : 1,
+  "formatType" : "PERCENT",
+  "label" : "Threshold",
+  "labelTranslations" : {
+    "" : "Threshold"
+  },
+  "readOnly" : false,
+  "requiredField" : true
+}
