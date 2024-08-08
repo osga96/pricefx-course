@@ -8,4 +8,8 @@ if (packagingAdj == null) {
 
 packagingAdj = packagingAdj[0]?.attribute1 as BigDecimal
 
+if (packagingAdj == null || out.BasePrice == null) {
+    api.addWarning("Base price or packaging adjustments are null for this product")
+}
+
 return packagingAdj * out.BasePrice

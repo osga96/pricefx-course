@@ -4,8 +4,8 @@ if (productCost == null) {
     api.addWarning("ProductCost product extension could not be found")
 }
 
-if (productCost?.getAt(0)?.attribute1 == null) {
-    api.addWarning("The product's packaging adjustment was not found or is not set")
+if (productCost[0]?.attribute1 == null) {
+    api.addWarning("The product average cost was not found or is not set correctly")
 }
 
-return productCost?.getAt(0)?.attribute1 as BigDecimal
+return productCost[0]?.attribute1 as BigDecimal
