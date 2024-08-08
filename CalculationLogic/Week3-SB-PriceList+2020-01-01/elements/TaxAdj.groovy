@@ -6,6 +6,7 @@ def customerRegion = api.find("C", 0, 1, null, fields, Filter.equal("customerId"
 
 if (customerRegion == null) {
     api.addWarning("Customer region could not be found")
+    return null
 }
 
 def taxFields = [
@@ -16,6 +17,7 @@ def taxAdj = api.findLookupTableValues("TaxAdj", taxFields, null, Filter.equal("
 
 if (taxAdj == null) {
     api.addWarning("Packaging adjustment could not be found")
+    return null
 }
 
 return taxAdj * out.BasePrice
