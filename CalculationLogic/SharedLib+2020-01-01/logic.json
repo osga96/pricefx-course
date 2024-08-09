@@ -12,6 +12,19 @@
     "hideWarnings" : false,
     "protectedExpression" : false,
     "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementLabel" : "Pagination Utils",
+    "elementName" : "PaginationUtils",
+    "elementTimeout" : 0,
+    "excludeFromExport" : false,
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "protectedExpression" : false,
+    "summarize" : false
   } ],
   "formulaNature" : "library",
   "label" : "Shared Library",
