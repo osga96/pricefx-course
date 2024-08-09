@@ -15,8 +15,8 @@ def taxFields = [
 
 def taxAdj = api.findLookupTableValues("TaxAdj", taxFields, null, Filter.equal("name", customerRegion[0].Region))[0].value as BigDecimal
 
-if (taxAdj == null) {
-    api.addWarning("Packaging adjustment could not be found")
+if (taxAdj == null || out.BasePrice == null) {
+    api.addWarning("Packaging adjustment or Base price was null")
     return null
 }
 

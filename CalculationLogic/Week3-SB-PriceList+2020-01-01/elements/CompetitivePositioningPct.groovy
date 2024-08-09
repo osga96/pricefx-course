@@ -7,4 +7,16 @@ if (competitionStrategy == null || competitionStrategy[0] == null) {
     return null
 }
 
-return competitionStrategy[0]?.attribute1 * out.BasePrice
+competitionStrategy = competitionStrategy[0]?.attribute1 as BigDecimal
+
+if (competitionStrategy == null) {
+    api.addWarning("Competition Strategy was null for businessUnit: " + businessUnit)
+    return null
+}
+
+if (out.BasePrice == null) {
+    api.addWarning("Base price was null")
+    return null
+}
+
+return competitionStrategy * out.BasePrice
