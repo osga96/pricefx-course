@@ -1,5 +1,18 @@
 {
-  "elements" : [ ],
+  "elements" : [ {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 0,
+    "elementGroups" : [ ],
+    "elementLabel" : "Total Invoice Price",
+    "elementName" : "TotalInvoicePrice",
+    "elementTimeout" : 0,
+    "excludeFromExport" : false,
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "protectedExpression" : false,
+    "summarize" : false
+  } ],
   "formulaNature" : "quoteHeader",
   "status" : "ACTIVE",
   "uniqueName" : "QuoteHeaderLogic",
