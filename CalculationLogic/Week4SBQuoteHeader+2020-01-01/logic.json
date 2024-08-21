@@ -1,0 +1,20 @@
+{
+  "elements" : [ {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 0,
+    "elementGroups" : [ ],
+    "elementLabel" : "Sales Discount %",
+    "elementName" : "SalesDiscountPct",
+    "elementTimeout" : 0,
+    "excludeFromExport" : false,
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "protectedExpression" : false,
+    "summarize" : false
+  } ],
+  "formulaNature" : "quoteHeader",
+  "status" : "ACTIVE",
+  "uniqueName" : "Week4SBQuoteHeader",
+  "validAfter" : "2020-01-01"
+}

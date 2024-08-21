@@ -20,6 +20,8 @@
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/Week3_LogicInputsAddendum+2020-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/QuoteLogic+2020-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/QuoteHeaderLogic+2020-01-01/elements" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/Week4SBQuote+2020-01-01/elements" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/Week4SBQuoteHeader+2020-01-01/elements" isTestSource="false" />
     </content>
   </component>
 </module>
