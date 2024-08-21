@@ -3,7 +3,6 @@
   <component name="AdditionalModuleElements">
     <content url="file://$MODULE_DIR$" dumb="true">
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/HelloWorld+2020-01-01/elements" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/CompetitionPricing+2000-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/LoadPricelistIntoDatamart+2000-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/MasterDataAccess+2020-01-01/elements" isTestSource="false" />
@@ -20,7 +19,6 @@
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/Week3MiniTest+2020-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/Week3_LogicInputsAddendum+2020-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/QuoteLogic+2020-01-01/elements" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/nose+2020-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/QuoteHeaderLogic+2020-01-01/elements" isTestSource="false" />
     </content>
   </component>
