@@ -25,6 +25,7 @@
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/PADataQuery+2020-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/Week5_Lecture_Datamart+2020-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WorkflowFormula/Week5_Lecture_Workflows+2020-01-01/elements" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/Week4CheckpointPriceList+2020-01-01/elements" isTestSource="false" />
     </content>
   </component>
 </module>
