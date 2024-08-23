@@ -6,7 +6,7 @@
  */
 def getMarginPct(pli) {
     def basePrice = pli.calculationResults?.find { it.resultName == "BasePrice" }?.result
-    def listPrice = pli.calculationResults?.find { it.resultName == "ListPrice" }?.result
+    def listPrice = pli.calculationResults?.find { it.resultName == "ListPrices" }?.result
     def marginPct = null
     if (listPrice && basePrice != null) marginPct = (listPrice - basePrice) / listPrice
     return marginPct
