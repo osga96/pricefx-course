@@ -29,6 +29,7 @@
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/LPG_Flow+2020-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WorkflowFormula/ComplexWorkflow+2020-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WorkflowFormula/SimpleWorkflow+2020-01-01/elements" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WorkflowFormula/Week5Minitest+2020-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WorkflowFormula/pricelist+2020-01-01/elements" isTestSource="false" />
     </content>
   </component>

@@ -1,0 +1,15 @@
+{
+  "elements" : [ {
+    "combinationType" : "FUNCTION",
+    "elementLabel" : "Total Invoice",
+    "elementName" : "TotalInvoice",
+    "elementTimeout" : 0,
+    "excludeFromExport" : false,
+    "hideWarnings" : false,
+    "protectedExpression" : false
+  } ],
+  "status" : "ACTIVE",
+  "uniqueName" : "Week5Minitest",
+  "validAfter" : "2020-01-01",
+  "workflowType" : "quote"
+}
