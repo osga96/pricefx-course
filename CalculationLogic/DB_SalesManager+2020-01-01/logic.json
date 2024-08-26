@@ -15,7 +15,7 @@
   }, {
     "allowOverride" : false,
     "combinationType" : "FUNCTION",
-    "displayOptions" : 16,
+    "displayOptions" : 0,
     "elementGroups" : [ ],
     "elementLabel" : "AbortInputGeneration",
     "elementName" : "AbortInputGeneration",
