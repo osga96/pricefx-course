@@ -24,4 +24,15 @@ def chart = api.newChartBuilder()
         .back()
         .build()
 
+/*
+def ctx = api.getDatamartContext()
+def dm = ctx.getDatamart("Transaction")
+def column = dm.getColumn("InvoiceDateYear")
+//def column = dm.getColumn("InvoiceDate")
+
+api.trace("Year is : " + ctx.dimFilterEntry("Year", column)?.getValue())
+
+return ctx.dimFilterEntry("Year", column)?.getValue()
+* */
+
 return chart
