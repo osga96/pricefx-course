@@ -33,6 +33,7 @@
       <sourceFolder url="file://$MODULE_DIR$/WorkflowFormula/pricelist+2020-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/CFS_ProductCostCurrencyConversion+2020-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/DB_SalesManager+2020-01-01/elements" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/DL_InvoicePriceLogic+2020-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/DL_LoadFromProductCost+2020-01-01/elements" isTestSource="false" />
     </content>
   </component>
