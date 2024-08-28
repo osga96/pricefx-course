@@ -1,13 +1,28 @@
-import com.googlecode.genericdao.search.Filter
+def fields = ["id", "targetDate"]
 
-def pricelistIterator = api.stream("PL", null, Filter.equal("approvalState", "APPROVED"))
-def targetDates = pricelistIterator?.collectEntries { pl -> [(pl.id): (pl.targetDate)] }
-pricelistIterator?.close()
+def filters = [
+        Filter.equal("approvalState", "APPROVED")
+]
 
-// TODO uncomment next line (this line was commented so the stub of this logic could be successfully deployed to your partition)
-// def pricelistIds = targetDates.keySet() as List
+def priceListIdDates = api.find("PL", 0, api.getMaxFindResultsLimit(), null, fields, *filters)
+def target = api.getDatamartRowSet("target")
 
-// TODO place your code here
-// HINTS:
-// - use only PLIs from Priceslists listed in variable "pricelistIds"
-// - target dates of the Pricelists are in variable "targetDates"
+priceListIdDates.each {priceList ->
+    def priceListItemFields = ["sku", "resultPrice", "currency"]
+
+    def priceListItemFilters = [
+            Filter.equal("pricelistId", priceList.id)
+    ]
+
+    def records = api.stream("PLI", null, priceListItemFields, *priceListItemFilters)
+            ?.withCloseable { it.collect() }
+
+    records.each { record ->
+        target?.addRow([
+                "ProductId" : record.sku,
+                "TargetDate" : priceList.targetDate,
+                "ResultPrice" : record.resultPrice,
+                "Currency" : record.currency
+        ])
+    }
+}
