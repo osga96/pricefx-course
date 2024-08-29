@@ -35,6 +35,9 @@
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/DB_SalesManager+2020-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/DL_InvoicePriceLogic+2020-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/DL_LoadFromProductCost+2020-01-01/elements" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/ZZ_Review_CalculationFieldSet+2020-01-01/elements" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/ZZ_Review_Dashboards+2020-01-01/elements" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/ZZ_Review_DataLoad+2020-01-01/elements" isTestSource="false" />
     </content>
   </component>
 </module>
