@@ -38,6 +38,9 @@
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/ZZ_Review_CalculationFieldSet+2020-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/ZZ_Review_Dashboards+2020-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/ZZ_Review_DataLoad+2020-01-01/elements" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/Week6CheckPointQuoteHeader+2020-01-01/elements" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/Week6CheckPointQuoteLine+2020-01-01/elements" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WorkflowFormula/Week6CheckPointWorkFlow+2020-01-01/elements" isTestSource="false" />
     </content>
   </component>
 </module>
