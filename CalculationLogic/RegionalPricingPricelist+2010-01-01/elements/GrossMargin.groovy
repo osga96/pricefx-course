@@ -1,10 +1,10 @@
 if (out.BasePrice == null) {
-    api.criticalAlert("Base price was not set")
+    api.addWarning("Base price was not set")
     return null
 }
 
 if (out.ListPrice == null) {
-    api.criticalAlert("List price was not calculated")
+    api.addWarning("List price was not calculated")
     return null
 }
 
