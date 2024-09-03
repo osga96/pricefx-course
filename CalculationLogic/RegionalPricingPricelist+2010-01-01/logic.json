@@ -8,10 +8,8 @@
     "elementName" : "Region",
     "elementTimeout" : 0,
     "excludeFromExport" : false,
-    "formatType" : "TEXT",
     "hideOnNull" : false,
     "hideWarnings" : false,
-    "overridden" : false,
     "protectedExpression" : false,
     "summarize" : false
   }, {
@@ -60,6 +58,20 @@
   }, {
     "allowOverride" : false,
     "combinationType" : "FUNCTION",
+    "displayOptions" : 0,
+    "elementGroups" : [ ],
+    "elementLabel" : "Margin Adjustment %",
+    "elementName" : "MarginAdjustmentPct",
+    "elementTimeout" : 0,
+    "excludeFromExport" : false,
+    "formatType" : "PERCENT",
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "protectedExpression" : false,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
     "displayOptions" : 16,
     "elementGroups" : [ ],
     "elementLabel" : "Margin Adj",
@@ -71,6 +83,20 @@
     "hideOnNull" : false,
     "hideWarnings" : false,
     "overridden" : false,
+    "protectedExpression" : false,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 0,
+    "elementGroups" : [ ],
+    "elementLabel" : "Attribute Adjustment %",
+    "elementName" : "AttributeAdjustmentPct",
+    "elementTimeout" : 0,
+    "excludeFromExport" : false,
+    "formatType" : "PERCENT",
+    "hideOnNull" : false,
+    "hideWarnings" : false,
     "protectedExpression" : false,
     "summarize" : false
   }, {
@@ -92,6 +118,20 @@
   }, {
     "allowOverride" : false,
     "combinationType" : "FUNCTION",
+    "displayOptions" : 0,
+    "elementGroups" : [ ],
+    "elementLabel" : "Packaging Adjustment %",
+    "elementName" : "PackagingAdjustmentPct",
+    "elementTimeout" : 0,
+    "excludeFromExport" : false,
+    "formatType" : "PERCENT",
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "protectedExpression" : false,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
     "displayOptions" : 16,
     "elementGroups" : [ ],
     "elementLabel" : "Packaging Adj",
@@ -103,6 +143,20 @@
     "hideOnNull" : false,
     "hideWarnings" : false,
     "overridden" : false,
+    "protectedExpression" : false,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 0,
+    "elementGroups" : [ ],
+    "elementLabel" : "Tax Tariff Adjustment %",
+    "elementName" : "TaxTariffAdjustmentPct",
+    "elementTimeout" : 0,
+    "excludeFromExport" : false,
+    "formatType" : "PERCENT",
+    "hideOnNull" : false,
+    "hideWarnings" : false,
     "protectedExpression" : false,
     "summarize" : false
   }, {
