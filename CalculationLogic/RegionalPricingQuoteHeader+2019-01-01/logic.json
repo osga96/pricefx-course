@@ -2,7 +2,7 @@
   "elements" : [ {
     "allowOverride" : false,
     "combinationType" : "FUNCTION",
-    "displayOptions" : 16,
+    "displayOptions" : 0,
     "elementGroups" : [ ],
     "elementName" : "Customer",
     "elementTimeout" : 0,
@@ -10,6 +10,20 @@
     "hideOnNull" : false,
     "hideWarnings" : false,
     "overridden" : false,
+    "protectedExpression" : false,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementLabel" : "Total Invoice Pricee",
+    "elementName" : "TotalInvoicePrice",
+    "elementTimeout" : 0,
+    "excludeFromExport" : false,
+    "formatType" : "MONEY",
+    "hideOnNull" : false,
+    "hideWarnings" : false,
     "protectedExpression" : false,
     "summarize" : false
   }, {

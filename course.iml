@@ -42,6 +42,7 @@
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/Week6CheckPointQuoteLine+2020-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WorkflowFormula/Week6CheckPointWorkFlow+2020-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WorkflowFormula/RegionalPricingQuoteWorkflow+2019-01-01/elements" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/Week7LibraryUtils+2020-01-01/elements" isTestSource="false" />
     </content>
   </component>
 </module>
