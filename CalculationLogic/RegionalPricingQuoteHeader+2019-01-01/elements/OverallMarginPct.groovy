@@ -61,20 +61,11 @@ if (quoteProcessor.isPostPhase()) {
 
     for (lineItem in folder.getChildren()) {
         def margin = lineItem.getOutputByName("Margin").get("result")
-
-        if (margin == null) {
-            warnings.add("Margin was null")
-            return null
-        }
-
         def quantity = lineItem.getOutputByName("Quantity").get("result")
 
-        if (quantity == null) {
-            warnings.add("Quantity was null")
-            return null
+        if (margin != null && quantity != null) {
+            marginSum += margin * quantity
         }
-
-        marginSum += margin * quantity
     }
 
     quoteProcessor.addOrUpdateOutput([
