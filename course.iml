@@ -43,6 +43,11 @@
       <sourceFolder url="file://$MODULE_DIR$/WorkflowFormula/Week6CheckPointWorkFlow+2020-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WorkflowFormula/RegionalPricingQuoteWorkflow+2019-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/Week7LibraryUtils+2020-01-01/elements" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/ZZ_REVIEW_MoneyUtils+2020-01-01/elements" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/ZZ_Review_Week7_Proj_Pricelist+2020-01-01/elements" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/ZZ_W7_Review_QuoteHeader+2020-01-01/elements" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/ZZ_W7_Review_QuoteLine+2020-01-01/elements" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WorkflowFormula/ZZ_REVIEW_QUOTEWFLW+2020-01-01/elements" isTestSource="false" />
     </content>
   </component>
 </module>

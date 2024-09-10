@@ -1,0 +1,23 @@
+{
+  "elements" : [ {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementLabel" : "ExchangeRate",
+    "elementName" : "ExchangeRate",
+    "elementTimeout" : 0,
+    "excludeFromExport" : false,
+    "formatType" : "PERCENT",
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "overridden" : false,
+    "protectedExpression" : false,
+    "summarize" : false
+  } ],
+  "formulaNature" : "library",
+  "inputDescriptors" : [ ],
+  "status" : "ACTIVE",
+  "uniqueName" : "ZZ_REVIEW_MoneyUtils",
+  "validAfter" : "2020-01-01"
+}

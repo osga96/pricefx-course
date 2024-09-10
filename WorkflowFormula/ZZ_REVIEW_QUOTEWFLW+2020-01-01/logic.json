@@ -1,0 +1,15 @@
+{
+  "elements" : [ {
+    "combinationType" : "FUNCTION",
+    "elementLabel" : "TotalInvoicePriceThreshold",
+    "elementName" : "TotalInvoicePriceThreshold",
+    "elementTimeout" : 0,
+    "excludeFromExport" : false,
+    "hideWarnings" : false,
+    "protectedExpression" : false
+  } ],
+  "status" : "ACTIVE",
+  "uniqueName" : "ZZ_REVIEW_QUOTEWFLW",
+  "validAfter" : "2020-01-01",
+  "workflowType" : "quote"
+}
